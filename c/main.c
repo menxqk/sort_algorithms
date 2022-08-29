@@ -29,7 +29,7 @@ void main(int argc, char *argv[])
     FILE *fptr = fopen(input_file, "r");
     if (fptr == NULL)
     {
-        printf("Error opening file: %s\n", input_file);
+        printf("error opening file: %s\n", input_file);
         exit(1);
     }
 
