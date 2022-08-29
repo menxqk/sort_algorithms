@@ -1,5 +1,5 @@
 all:
-	gcc -o main main.c 
+	gcc -o main main.c arr.c sorts.c
 
-run:
-	./main
+clean:
+	rm ./main
