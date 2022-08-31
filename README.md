@@ -31,3 +31,11 @@ quick sort:     0.017126s
 </pre>
 
 ## PYTHON
+<pre>
+bubble sort:    738.250524s
+selection sort: 1023.383513s
+insertion sort: 358.555074s
+merge sort:     0.613861s
+heap sort:      0.749175s
+quick sort:     0.263004s
+</pre>

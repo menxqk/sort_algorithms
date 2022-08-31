@@ -130,7 +130,7 @@ function heapSort(arr, size) {
     let i;
     let temp;
 
-    for (i = size / 2 - 1; i >= 0; i--) {
+    for (i = Math.floor(size / 2) - 1; i >= 0; i--) {
         heapify(arr, size, i);
     }
 
