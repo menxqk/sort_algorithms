@@ -20,7 +20,7 @@ void main(int argc, char *argv[])
 {
     if (argc < 2)
     {
-        printf("input file missing");
+        printf("input file missing\n");
         exit(1);
     }
 
