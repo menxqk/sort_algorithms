@@ -89,17 +89,17 @@ func main() {
 	start = time.Now()
 	sorts.MergeSort(numsMerge[:], 0, arraySize-1)
 	diff = time.Since(start)
-	fmt.Printf("merge     sort: %.6fs\n", diff.Seconds())
+	fmt.Printf("merge sort:     %.6fs\n", diff.Seconds())
 
 	// heap sort
 	start = time.Now()
 	sorts.HeapSort(numsHeap[:], arraySize)
 	diff = time.Since(start)
-	fmt.Printf("heap      sort: %.6fs\n", diff.Seconds())
+	fmt.Printf("heap sort:      %.6fs\n", diff.Seconds())
 
 	// quick sort
 	start = time.Now()
 	sorts.QuickSort(numsQuick[:], 0, arraySize-1)
 	diff = time.Since(start)
-	fmt.Printf("quick     sort: %.6fs\n", diff.Seconds())
+	fmt.Printf("quick sort:     %.6fs\n", diff.Seconds())
 }

@@ -55,35 +55,35 @@ function sortArrays() {
     sorts.bubbleSort(numsBubble, arraySize);
     let end = performance.now();
     let diff = end - start;
-    console.log("bubble sort:      %fs", (diff / 1000).toFixed(6));
+    console.log("bubble sort:    %fs", (diff / 1000).toFixed(6));
 
     start = performance.now();
     sorts.selectionSort(numsSelection, arraySize);
     end = performance.now();
     diff = end - start;
-    console.log("selection sort:   %fs", (diff / 1000).toFixed(6));
+    console.log("selection sort: %fs", (diff / 1000).toFixed(6));
 
     start = performance.now();
     sorts.insertionSort(numsInsertion, arraySize);
     end = performance.now();
     diff = end - start;
-    console.log("insertion sort:   %fs", (diff / 1000).toFixed(6));
+    console.log("insertion sort: %fs", (diff / 1000).toFixed(6));
 
     start = performance.now();
     sorts.mergeSort(numsMerge, 0, arraySize - 1);
     end = performance.now();
     diff = end - start;
-    console.log("merge sort:       %fs", (diff / 1000).toFixed(6));
+    console.log("merge sort:     %fs", (diff / 1000).toFixed(6));
 
     start = performance.now();
     sorts.heapSort(numsHeap, arraySize);
     end = performance.now();
     diff = end - start;
-    console.log("heap sort:        %fs", (diff / 1000).toFixed(6));
+    console.log("heap sort:      %fs", (diff / 1000).toFixed(6));
 
     start = performance.now();
     sorts.quickSort(numsQuick, 0, arraySize - 1);
     end = performance.now();
     diff = end - start;
-    console.log("quick sort:       %fs", (diff / 1000).toFixed(6));
+    console.log("quick sort:     %fs", (diff / 1000).toFixed(6));
 }
